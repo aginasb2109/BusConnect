@@ -1,31 +1,39 @@
-🚍 BusConnect – Console-Based Bus Reservation System
-Overview:
-BusConnect is a Java console-based application integrated with JDBC for backend database operations. It simulates a basic bus reservation system with real-world functionalities such as booking, cancellation, capacity management, and bus information retrieval.
+# 🚍 BusConnect - Console-Based Bus Reservation System
 
-💡 Key Features:
-Book a Seat
-Allows passengers to book seats on a selected bus for a specific date, updating availability in real-time.
+**BusConnect** is a simple, console-based Java application that simulates a basic bus reservation system. It uses **JDBC** to interact with a backend SQL database, enabling operations such as booking, cancellation, viewing available seats, and managing bus records.
 
-Cancel Booking
-Enables passengers to cancel their booking and automatically updates the seat count for the respective bus and date.
+---
 
-Check Bus Capacity
-Displays the number of available seats for a given bus on a specific date, ensuring users can plan accordingly.
+## 📌 Features
 
-View Bus Information
-Shows details about all registered buses, including bus number, name, source, destination, and timing.
+- **Book a Seat**  
+  Reserve a seat on a bus for a specific date.
 
-Add New Bus
-Admin can add a new bus with all relevant details like route, stops, timings, and seat capacity directly into the system.
+- **Cancel a Booking**  
+  Cancel an existing booking and update the seat count.
 
-Exit Application
-Provides a clean exit from the program, closing all connections and resources properly.
+- **Check Bus Capacity**  
+  View available seats on a particular bus for a chosen date.
 
-🛠️ Technologies Used:
-Java – Core programming for the logic and user interaction
+- **View Bus Information**  
+  Display all buses with details like route, timing, and capacity.
 
-JDBC (Java Database Connectivity) – For connecting and performing SQL operations on the backend database (e.g., MySQL)
+- **Add New Bus**  
+  Admins can register new buses into the system.
 
-MySQL/Other RDBMS – Used to store all booking records, bus information, and route details
+- **Exit**  
+  Close the application safely.
 
-SQL – To create, retrieve, update, and delete data from the database
+---
+
+## ⚙️ Technologies Used
+
+- **Java** - Core logic and console interaction  
+- **JDBC (Java Database Connectivity)** - Database connectivity  
+- **MySQL** (or any relational database) - Backend data storage  
+- **SQL** - Queries for CRUD operations
+
+---
+
+## 🗂️ Project Structure
+
